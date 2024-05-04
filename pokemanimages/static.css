@@ -1,0 +1,9 @@
+.iamgesclass{
+    height: 200px;
+    width: 200px;
+    border: 20px solid black;
+}
+
+.iamgesclass:hover {
+    transform: scale(1.2); /* Change the scale value as needed */
+}
