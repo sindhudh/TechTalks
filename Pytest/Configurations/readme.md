@@ -1,0 +1,1 @@
+This code demostrates how we can group fixtures under one subfoalder so that it can be accessible from all the test cases
