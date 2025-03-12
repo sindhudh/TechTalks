@@ -1,0 +1,32 @@
+[
+    {
+    
+    "Rule":{
+    "predicate": "All",
+    "rules": [
+      {
+        "field": "From",
+        "predicate": "Does not Contain",
+        "value": "avi"
+      },
+      {
+        "field": "Subject",
+        "predicate": "Equals",
+        "value": "Senior Software Engineer + 11 new jobs - Job Alert from Jobstreet.com"
+      },
+      {
+        "field": "message",
+        "predicate": "Does not equal",
+        "value": "You're one step closer to your goal —stay focused and reach  48 kg  with confidence! "
+      }
+    ],
+    "actions": [
+      {
+        "action": "Mark as read"
+      }
+    ]
+  
+}
+    }
+]
+  

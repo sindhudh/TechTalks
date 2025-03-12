@@ -1,0 +1,12 @@
+{
+    "scopes":[
+        "https://www.googleapis.com/auth/gmail.modify"
+    ],
+    "max_results_email": 10,
+    "max_results_db": 10,
+    "extract_from_headers":["Subject", "From", "Date", "To", "Cc"],
+    "DatabasesUsername":"YOUR_DB_USERNAM",
+    "DatabasesPassword":"YOUR_DB_PASSWARD",
+    "port":"YOUR_DB_PORT",
+    "dbname":"email_db"
+}

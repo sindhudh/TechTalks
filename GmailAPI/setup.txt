@@ -1,0 +1,42 @@
+Prerequisites
+-------------
+Before starting, ensure you have the following installed:
+
+- Python 3.x
+- pip (Python package manager)
+- Git (for cloning the repository)
+- database(postgres)
+
+Installation Steps
+------------------
+Follow the steps below to set up the project.
+
+1. Clone the repository:
+   git clone https://github.com/sindhudh/HappyFox.git
+
+2. Navigate into the project directory:
+   cd projectname
+
+3. Create database email_db in postgres
+
+3. Set up a virtual environment (optional but recommended):
+   python -m venv venv
+   venv\Scripts\activate
+
+4. Install the required dependencies:
+   pip install -r requirements.txt
+
+5. create database email_db
+
+Configuration
+-------------
+Step 1: Enable Gmail API & Get Credentials
+
+Go to Google Cloud Console: https://console.cloud.google.com/
+Create a new project or select an existing one.
+Enable Gmail API:
+Navigate to APIs & Services → Library → Search for "Gmail API" → Click "Enable".
+Create OAuth 2.0 Credentials:
+Go to APIs & Services → Credentials → Create Credentials → OAuth Client ID.
+Choose Desktop App.
+Download the credentials.json file(place in configs)
